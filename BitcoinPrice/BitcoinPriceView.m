@@ -85,7 +85,7 @@
 {
     BitcoinPriceRetriever *bpr = [[BitcoinPriceRetriever alloc] init];
     double price = [bpr retrievePrice];
-    NSString *theString = [NSString stringWithFormat:@"%f", price];
+    NSString *theString = [NSString stringWithFormat:@"USD 24h: $%.2f", price];
     currentText = [[NSAttributedString alloc] initWithString: theString attributes: [self getAttributes]];
     lastPriceUpdate = [NSDate date];
     
@@ -94,7 +94,7 @@
 - (NSDictionary*) getAttributes
 {
     //note we are using the convenience method, so we don't need to autorelease the object
-    NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:[NSFont fontWithName:@"Helvetica" size:26], NSFontAttributeName, [NSColor whiteColor], NSForegroundColorAttributeName, nil];
+    NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:[NSFont fontWithName:@"Helvetica" size:60], NSFontAttributeName, [NSColor whiteColor], NSForegroundColorAttributeName, nil];
     return attributes;
 }
 
