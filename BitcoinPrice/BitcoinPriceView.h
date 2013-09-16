@@ -8,6 +8,12 @@
 
 #import <ScreenSaver/ScreenSaver.h>
 
-@interface BitcoinPriceView : ScreenSaverView
-
+@interface BitcoinPriceView : ScreenSaverView {
+    NSAttributedString* currentText;
+    NSPoint currentPosition;
+    NSDate* lastPriceUpdate;
+}
+@property (retain) NSAttributedString* currentText;
+@property (readwrite) NSPoint currentPosition;
+@property (readwrite) NSDate* lastPriceUpdate;
 @end
