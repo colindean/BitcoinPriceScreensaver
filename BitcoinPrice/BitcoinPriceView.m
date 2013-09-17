@@ -63,7 +63,7 @@
     
     NSDate* now = [NSDate date];
     NSTimeInterval interval = [now timeIntervalSinceDate:lastPriceUpdate];
-    if (interval > 60 ) {
+    if (interval > 60*15 ) {
         [self updatePrice];
     }
     
