@@ -16,6 +16,10 @@ rate of Bitcoin to fiat currencies.
 It is currently hardcoded to USD 24 hour average and the price text just moves
 diagonally upward and to the right infinitely.
 
+You can choose between BitcoinCharts.com or Coindesk by changing the
+retrievePrice method in BitcoinPriceRetriever.m. I might make a settings dialog
+eventually to make this more user-friendly.
+
 It is meant primarily as something for me to mess around with Objective-C and
 XCode.
 
