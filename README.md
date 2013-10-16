@@ -3,7 +3,7 @@ Bitcoin Price Screensaver
 
 by Colin Dean (@colindean)
 
-[![Gittip](http://badgr.co/Gittip/colindean.png)](https://www.gittip.com/colindean/)
+[![Gittip](http://img.shields.io/gittip/colindean.png)](https://www.gittip.com/colindean/)
 
 bitcoin: [1Pfm9iisTBE4ncK6fQLgVebDUspQd7jVCS](bitcoin:1Pfm9iisTBE4ncK6fQLgVebDUspQd7jVCS)
 
