@@ -31,7 +31,7 @@
     response = [self getJSONDataFromURL: @"http://api.coindesk.com/v1/bpi/currentprice/USD.json"];
     NSHashTable* bpi = [response objectForKey: @"bpi"];
     NSHashTable* usd = [bpi valueForKey: @"USD"];
-    NSString* rate = [usd valueForKey: @"rate"];
+    NSString* rate = [usd valueForKey: @"rate_float"];
     return [rate doubleValue];
 }
 
