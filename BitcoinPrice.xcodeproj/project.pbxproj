@@ -142,7 +142,7 @@
 		3BE6097517E57FFC00C82934 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Colin Dean";
 			};
 			buildConfigurationList = 3BE6097817E57FFC00C82934 /* Build configuration list for PBXProject "BitcoinPrice" */;
@@ -275,7 +275,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_ENABLE_OBJC_GC = "";
+				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BitcoinPrice/BitcoinPrice-Prefix.pch";
 				INFOPLIST_FILE = "BitcoinPrice/BitcoinPrice-Info.plist";
@@ -290,7 +290,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_ENABLE_OBJC_GC = "";
+				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BitcoinPrice/BitcoinPrice-Prefix.pch";
 				INFOPLIST_FILE = "BitcoinPrice/BitcoinPrice-Info.plist";
@@ -319,6 +319,7 @@
 				3BE6099817E57FFC00C82934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
